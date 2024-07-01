@@ -1,0 +1,7 @@
+grey = baseline (after k = 8)
+green = best option (lowest complexity)
+yellow = second best option
+blue = third/fourth best option
+purple = worse than blue, slightly better than baseline
+orange = worse than baseline, bad option
+red = worst option (highest complexity)
