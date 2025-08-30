@@ -24,3 +24,8 @@ The files in this repository are organized as follows:
     - `./tree_calc.kt` is the Kotlin script provided in the paper for determining ASIC/transistor-level tree decoder complexity. It is capable of generating CSV-type output for easy data analysis.
     - `./tree_dec_v3.vhd` is the primary VHDL description for the tree decoders. It depends on `./sld_en_v1.vhd` which is also in this folder.
       - Like the MLD, `./tree_dec_v3_top.vhd` is required as a wrapper for `./tree_dec_v3.vhd`.
+
+#### Correction
+- In the paper, it is incorrectly implied that the delay of the tree decoders is identical to that of the single-level decoders with an enable signal.
+  - Fortunately, this does not affect the results, as it is still true that the tree decoders are never the fastest.
+  - New data is available in `/data/new_tree_tr_data.xlsx` for additional context.
