@@ -1,6 +1,6 @@
 # Multi-Level-Decoders
-This repository contains source code for a VHDL implementation of the multi-level decoders described in the paper "A Generalized Multi-Level Structure for
-High-Precision Binary Decoders."
+This repository contains source code for a VHDL implementation of the multi-level decoders described in the paper "[A Generalized Multi-Level Structure for
+High-Precision Binary Decoders](https://doi.org/10.1109/MWSCAS60917.2024.10658662)."
 
 ### Files
 The files in this repository are organized as follows:
